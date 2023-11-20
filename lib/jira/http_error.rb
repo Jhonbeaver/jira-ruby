@@ -1,5 +1,4 @@
 require 'forwardable'
-require 'activesupport/all'
 
 module JIRA
   class HTTPError < StandardError
@@ -10,7 +9,7 @@ module JIRA
 
     def initialize(response)
       @response = response
-      @message = response.try(:message).presence || response.try(:body)
+      @message = response.try(:message) || response.try(:body)
     end
   end
 end

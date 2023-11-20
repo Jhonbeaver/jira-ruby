@@ -2,7 +2,7 @@ $LOAD_PATH.push File.expand_path('lib', __dir__)
 require 'jira/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'jira-ruby2'
+  s.name        = 'jira-ruby'
   s.version     = JIRA::VERSION
   s.authors     = ['SUMO Heavy Industries', 'test IO']
   s.homepage    = 'http://www.sumoheavy.com'

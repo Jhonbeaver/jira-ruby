@@ -1,5 +1,5 @@
 require 'forwardable'
-require 'active_support/all'
+require 'activesupport/all'
 
 module JIRA
   class HTTPError < StandardError
